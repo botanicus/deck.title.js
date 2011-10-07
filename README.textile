@@ -1,0 +1,11 @@
+h1. About
+
+Change @document.title@ for each slide in "deck.js":https://github.com/imakewebthings/deck.js presentations.
+
+h1. Example
+
+<pre>
+<section class="slide" id="intro" title="Introduction to Deck.js">
+  <!-- content -->
+</section>
+</pre>
