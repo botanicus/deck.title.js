@@ -13,11 +13,11 @@ https://github.com/imakewebthings/deck.js/blob/master/GPL-license.txt
 */
 
 (function ($, deck, window, undefined) {
-	/* Update page title on a slide change */
-	$(document).bind('deck.change', function(_, _, index) {
+  /* Update page title on a slide change */
+  $(document).bind('deck.change', function(_, _, index) {
     var section = $.deck("getSlide", index)[0];
     if (section.title) {
       document.title = section.title;
     };
-	});
+  });
 })(jQuery, 'deck', this);
